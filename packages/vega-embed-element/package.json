@@ -1,0 +1,25 @@
+{
+  "name": "@petitatelier/vega-embed-element",
+  "version": "0.0.0",
+  "description": "Defines a ‹vega-embed› web component, which wraps the Vega Embed and View APIs to instantiate a Vega dataflow graph.",
+  "author": "Olivier Lange",
+  "license": "BSD-3-Clause",
+  "main": "vega-embed.js",
+  "module": "vega-embed.js",
+  "scripts": {},
+  "dependencies": {
+    "lit-element": "^2.0.1",
+    "vega-embed": "^4.0.0-rc1",
+    "vega-lite": "^3.0.0-rc14",
+    "vega": "^5.1.0"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petitatelier/vega-elements.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "private": true
+}

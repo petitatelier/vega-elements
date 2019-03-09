@@ -1,0 +1,22 @@
+{
+  "name": "@petitatelier/vega-elements",
+  "private": true,
+  "description": "A collection of Vega web components",
+  "author": "Olivier Lange",
+  "license": "BSD-3-Clause",
+  "scripts": {
+    "bootstrap": "npm install && ./scripts/bootstrap.sh",
+    "dev": "polyserve --npm --module-resolution=node --open-path=demos/index.html",
+    "publish": "npx lerna publish"
+  },
+  "devDependencies": {
+    "@webcomponents/webcomponentsjs": "^2.2.7",
+    "lerna": "^3.13.1",
+    "polyserve": "^0.27.15"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petitatelier/vega-elements.git"
+  }
+}
